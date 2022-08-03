@@ -1,0 +1,429 @@
+/* Normal larg screen :1300. */
+
+@media (min-width: 1200px) and (max-width: 1599px) {
+    .op-sidebar {
+        overflow-y: scroll;
+    }
+    .wppolitic-fulscreen-slider .wppolitic-slide-content {
+        height: 100vh!important;
+    }
+    .wppolitic-onepage-slider .wppolitic-slide-content {
+        height: 640px!important;
+    }
+    .wppolitic-slider-home .wppolitic-slide-content {
+        height: 750px!important;
+    }
+    .hader_st_4 .default-style-one nav>ul>li>a {
+        padding: 30px 8px 30px 8px;
+    }
+}
+
+
+/* Normal desktop :992px. */
+
+@media (min-width: 992px) and (max-width: 1199px) {
+    .op-sidebar {
+        overflow-y: scroll;
+    }
+    .hader_st_4 .default-style-one nav>ul>li>a {
+        padding: 3px 0px 3px 0px;
+        font-size: 14px;
+    }
+    .hader_st_4 .donate__now__btn a {
+        font-size: 14px;
+    }
+    .politicem-header-search button,
+    .politicem-header-side_btn button,
+    .op_sidebar__header button {
+        width: 65px;
+    }
+    .wppolitic-fulscreen-slider .wppolitic-slider-area .owl-dots {
+        margin-left: -514px;
+    }
+    .wppolitic-onepage-slider .wppolitic-slide-content {
+        height: 570px!important;
+    }
+    .wppolitic-slider-home .wppolitic-slide-content {
+        height: 650px!important;
+    }
+    .elementor-section.elementor-section-boxed>.elementor-container {
+        max-width: 970px!important;
+    }
+    .donate__now__btn a {
+        padding: 8px 14px;
+    }
+    .default-menu nav>ul>li>a,
+    .primary-nav-one-page nav>ul>li>a,
+    .is-sticky .default-menu nav>ul>li>a,
+    .is-sticky .primary-nav-one-page nav>ul>li>a {
+        padding: 20px 8px;
+    }
+    .newsletter .section-title {
+        margin-bottom: 10px;
+    }
+    .newsletter .mc4wp-form-fields input[type="email"] {
+        width: 260px;
+    }
+    .footer_style2 .widget ul.instagram-pics {
+        padding-left: 50px;
+    }
+    .wppolitic-fulscreen-slider .wppolitic-slide-content {
+        height: 100vh!important;
+    }
+}
+
+
+/* Mobile and Desktop */
+
+@media (max-width: 991px) {
+    .op-sidebar {
+        overflow-y: scroll;
+    }
+    .main-search-active {
+        display: none;
+    }
+    .hader_st_4 .donate__now__btn a {
+        font-size: 14px;
+    }
+    .politicem-header-search button,
+    .politicem-header-side_btn button,
+    .op_sidebar__header button {
+        width: 65px;
+    }
+    .hader_st_4 .donate__now__btn {
+        margin-right: 65px;
+    }
+    .politicem-header-search {
+        display: none;
+    }
+    .hader_st_4 a.meanmenu-reveal {
+        top: -45.5px;
+        background: #e03927;
+        height: 90px;
+        width: 65px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: #fff;
+    }
+}
+
+
+/* Tablet desktop :768px. */
+
+@media (min-width: 768px) and (max-width: 991px) {
+    .elementor-section.elementor-section-boxed>.elementor-container {
+        max-width: 750px!important;
+    }
+    .wppolitic-fulscreen-slider .wppolitic-slider-area .owl-dots {
+        margin-left: -370px;
+    }
+    .default-menu nav>ul,
+    .primary-nav-one-page nav>ul {
+        display: none;
+    }
+    .container {
+        width: 750px;
+    }
+    .site-title img {
+        max-height: 62px;
+    }
+    .page-wrapper {
+        padding: 60px 0;
+    }
+    .related-post .row div[class*="col-"] {
+        margin-bottom: 30px;
+    }
+    .newsletter .mc4wp-form-fields input[type="email"] {
+        margin-bottom: 20px;
+        width: 292px;
+    }
+    .default-style-one,
+    .default-style-one,
+    .primary-nav-one-page {
+        display: block;
+    }
+    .donate__now__btn {
+        align-self: center;
+        margin-left: 0;
+        margin-right: 50px;
+    }
+    .give-btn {
+        padding: 10px 28px;
+    }
+    .sidebar-event.fix {
+        float: left;
+        padding-right: 20px;
+        width: 50%;
+    }
+    .widget.politicem_event {
+        margin-top: 25px;
+    }
+    .event-details {
+        margin-bottom: 30px;
+    }
+    .single-politicem_event .site-content {
+        padding: 119px 0 85px;
+    }
+    .portfolio-item-info>h3 {
+        font-size: 20px;
+        margin-bottom: 2px;
+    }
+    .branding-img {
+        margin-bottom: 20px;
+    }
+    .logged-in.admin-bar.home2 header {
+        top: 116px;
+    }
+    .home2 header {
+        top: 68px;
+    }
+    .home2 .owl-nav {
+        display: none;
+    }
+    .subscribe-form input[type="email"] {
+        width: 360px;
+    }
+    .footer_style2 .widget ul.instagram-pics {
+        padding-left: 20px;
+    }
+    .event_sidebar {
+        margin-top: 40px;
+    }
+    .event_sidebar .widget.politicem_event {
+        padding: 30px 30px 0;
+    }
+    .sidebar-widget {
+        margin-bottom: 40px;
+    }
+}
+
+
+/* small mobile :320px. */
+
+@media (max-width: 767px) {
+    .onepage-sidebar-area {
+        width: 308px;
+    }
+    .wppolitic-fulscreen-slider .wppolitic-slider-area .owl-dots {
+        margin-left: 0px;
+        left: 15px;
+    }
+    .page__title__inner {
+        padding: 30px 0;
+    }
+    .default-menu nav>ul,
+    .primary-nav-one-page nav>ul {
+        display: none;
+    }
+    .container {
+        width: 95%
+    }
+    .elementor-section.elementor-section-boxed>.elementor-container {
+        max-width: 90%!important;
+    }
+    .page__title__inner>h1 {
+        font-size: 28px;
+    }
+    .page-wrapper {
+        padding: 60px 0;
+    }
+    .widget-area {
+        margin-top: 50px;
+    }
+    .related-post .row div[class*="col-"] {
+        margin-bottom: 30px;
+    }
+    .left_widget_area .widget-area {
+        margin-top: 0;
+        margin-bottom: 40px;
+    }
+    .sidebar-widget {
+        margin-bottom: 40px;
+    }
+    .blog_pl {
+        padding-left: 15px;
+    }
+    .home2 header {
+        top: 100px;
+    }
+    .is-sticky .site-title a img {
+        max-height: 62px;
+    }
+    .header-social {
+        justify-content: center;
+    }
+    .header-info span {
+        display: block;
+        text-align: center;
+    }
+    .header-info span+span::before {
+        display: none;
+    }
+    .site-title img {
+        max-height: 62px;
+    }
+    .header-top-area {
+        padding: 5px 0 10px;
+    }
+    .breadcrumbs {
+        display: block;
+        text-align: center;
+    }
+    .breadcrumbs h2.page-title {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+    .breadcrumbs_wrap {
+        width: 100%;
+    }
+    .meta-info .meta-item.pull-right {
+        float: none !important;
+    }
+    .default-style-one {
+        display: block;
+    }
+    .donate__now__btn {
+        align-self: center;
+        margin-left: 0;
+        margin-right: 50px;
+    }
+    .donate__now__btn {
+        display: none;
+    }
+    /* Search bar */
+    .blog-search form input {
+        padding: 2px 70px 2px 15px;
+    }
+    .blog-search form button {
+        padding: 0 18px;
+        z-index: 99999999;
+    }
+    .blog-search form button::before {
+        right: 55px;
+    }
+    blockquote {
+        border-left: 3px solid #4b4a4a;
+        margin: 30px 0 30px 10px;
+        padding: 0 0 0 15px;
+        font-size: 14px;
+        line-height: 1.8;
+    }
+    .blog-info>ul {
+        margin: 20px;
+    }
+    .user-info .user-text span {
+        display: block;
+        padding: 5px 0;
+    }
+    .user-share {
+        display: block;
+        float: none;
+        margin-top: 15px;
+    }
+    .user-share span {
+        display: block;
+        float: none;
+        margin-bottom: 10px;
+        margin-right: 0;
+    }
+    .user-text {
+        display: block;
+        float: none;
+    }
+    .user-info {
+        overflow: hidden;
+    }
+    .author-img {
+        display: block;
+        float: none;
+        margin-bottom: 20px;
+    }
+    .author.author-box {
+        align-items: flex-start;
+        flex-flow: column wrap;
+        justify-content: flex-start;
+        margin: 50px 0;
+    }
+    .author-info {
+        padding-left: 0;
+        width: 100%;
+    }
+    .sidebar-title {
+        font-size: 20px;
+        letter-spacing: 1px;
+        margin-bottom: 50px;
+    }
+    .sidebar-title::before {
+        bottom: -10px;
+    }
+    .single-related-post img {
+        width: 100%;
+    }
+    .sidebar-widget.widget_tag_cloud .tagcloud a {
+        font-size: 12px !important;
+    }
+    .single-footer .footer-social {
+        margin: 20px 0 0;
+    }
+    .btn.btn-xlg {
+        font-size: 13px;
+        height: 40px;
+        line-height: 39px;
+        padding: 0 13px;
+    }
+    .branding-img {
+        margin-bottom: 20px;
+    }
+    .banner-info h4 {
+        font-size: 23px;
+        margin-bottom: 8px;
+    }
+    .newsletter .mc4wp-form-fields input[type="email"] {
+        margin-bottom: 20px;
+        width: 270px;
+    }
+    .newsletter .section-title {
+        margin-bottom: 0;
+    }
+    .logged-in.admin-bar.home2 header {
+        position: absolute;
+        top: 149px;
+    }
+    .subscribe-form input[type="email"] {
+        margin-bottom: 20px;
+        width: 88%;
+    }
+}
+
+
+/* Large Mobile :480px. */
+
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+    .container {
+        width: 90%
+    }
+    .default-style-one,
+    .primary-nav-one-page {
+        display: flex;
+    }
+    .donate__now__btn {
+        display: block;
+    }
+    .donate__now__btn a {
+        padding: 8px 21px;
+    }
+    .mean-nav .wrapper,
+    .mean-push {
+        display: none;
+    }
+}
+
+@media (max-width: 575px) {
+    .wpp-sd-none {
+        display: none;
+    }
+    .donationh3 .give-btn.give-btn-modal {
+        float: none;
+    }
+}
